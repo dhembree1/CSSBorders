@@ -41,4 +41,52 @@ h1{
 	width:80%;
 	margin: auto;
 }
+a{
+	text-decoration:none;
+	color:#000;
+}
+a:hover{
+	color:red;
+}
+a:active{
+	color:green;
+}
+/*
+a:visted{
+	color:yellow;
+}
+*/
 
+.box-1 h1{
+	font-family: Tahoma;
+	font-weight: 800;
+	font-style: italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 1em;
+}
+
+.box-2{
+	border: 3px dotted #ccc;
+	padding:20px;
+	margin:20px 0;
+}
+
+.categories{
+	border:1px #ccc solid;
+	padding: 10px;
+	border-radius: 15px;
+}
+.categories ul{
+	padding: 0;
+	list-style: none;
+}
+.categories h2{
+	text-align:center
+}
+.categories li{
+	padding-bottom: 6px;
+	border-bottom: dotted 4px #333;
+	list-style-image:url('../images/check.png');
+}
