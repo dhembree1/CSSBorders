@@ -122,3 +122,6 @@ a:visted{
 	padding:10px;
 	box-sizing: border-box;
 }
+.clr{
+	clear:both;
+}
