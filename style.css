@@ -66,7 +66,9 @@ a:visted{
 	color:yellow;
 }
 */
-
+.clr{
+	clear:both;
+}
 .box-1 h1{
 	font-family: Tahoma;
 	font-weight: 800;
@@ -113,7 +115,7 @@ a:visted{
 }
 .my-form input[type="text"], my-form textarea {
 	padding: 8px;
-	width: 100%;
+	width: 33.3%;
 }
 .block{
 	float:left;
@@ -122,6 +124,23 @@ a:visted{
 	padding:10px;
 	box-sizing: border-box;
 }
-.clr{
-	clear:both;
+
+#main-block{
+float: left;
+width: 70%;
+padding: 15px;
+box-sizing: border-box;
+}
+#sidebar {
+float: right;
+width: 30%;
+background-color: #333;
+color: #fff;
+padding: 15px;
+box-sizing: border-box;
+}
+.p-box {
+width: 800px;
+height: 500px;
+border: 1px  solid  #000;
 }
